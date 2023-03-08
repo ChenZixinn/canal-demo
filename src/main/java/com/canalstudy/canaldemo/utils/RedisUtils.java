@@ -5,8 +5,8 @@ import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
 public class RedisUtils {
-    public static final String REDIS_IP_ADDR = "47.113.185.181";
-    public static final String REDIS_PWD = "Cat010320__";
+    public static final String REDIS_IP_ADDR = "127.0.0.1";
+    public static final String REDIS_PWD = "passwd";
     public static JedisPool jedisPool;
 
     static {
